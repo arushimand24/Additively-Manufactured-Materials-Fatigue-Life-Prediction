@@ -1,0 +1,36 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Large datasets (review before uploading)
+data/raw/*
+data/processed/*
+
+# Preserve dataset instructions
+!data/raw/README.md
+!data/processed/README.md
